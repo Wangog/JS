@@ -1,0 +1,2 @@
+#Repo WanGog
+Lerning JS

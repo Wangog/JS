@@ -1,26 +1,26 @@
-//---1---
+//---3---
  
-let x = 1;
+let x = 1;//--обьявил две переменных
 let y = 2;
 
-let res1 = y - x + '2';
+console.log(x, y);//--вывел не экран
+x = y; //--скапировал одну переменную в другую
+console.log(x);//--вывел на экран
 
-console.log(res1); // "12"
-console.log(typeof res1); // "string"
+//---4---
+let q
+const allTips = {
+    res1: 'Vova',
+    res2: 13,
+    res3: true,
+    res4: q,
+    res5:null
+}    
+console.log(allTips)
+console.log(typeof allTips) // Вот тут не выводит но если навести то показывает все нужные значения
 
-let res2 = Boolean(x) + '' + y;
-console.log(res2); // "true2"
-console.log(typeof res2); // "string"
+//---5---
 
-let res3 = x < y;
-console.log(res3); // true
-console.log(typeof res3); // "boolean"
-
-let res4 = parseInt("x + y");
-console.log(res4); // NaN
-console.log(typeof res4); // "number"
-
-
-//---2---
-
-prompt ()
+function confirm() {
+    
+}

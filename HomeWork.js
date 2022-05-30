@@ -21,6 +21,6 @@ console.log(typeof allTips) // Вот тут не выводит но если �
 
 //---5---
 
-function confirm() {
-    
+confirm(18) {
+    isAdult
 }

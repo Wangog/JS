@@ -20,7 +20,14 @@ console.log(allTips)
 console.log(typeof allTips) // Вот тут не выводит но если навести то показывает все нужные значения
 
 //---5---
-
-confirm(18) {
-    isAdult
+const confirm = (a) =>{
+    if (a >= 18) {
+        return 'Ты в теме'
+    }
+    if (a < 18) {
+        return 'Ты не в теме'
+    }
 }
+confirm(19)
+isAdult = confirm
+console.log(isAdult)

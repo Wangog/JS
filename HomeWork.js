@@ -25,8 +25,8 @@ const confirm = (isAdult) =>{
     if (isAdult >= 18) {
         console.log('Ты в теме')
     }
-    if (isAdult < 18) {
+    else {
         console.log('Ты не в теме')
     }
 }
-confirm(19) // Вот теперь выводит
+confirm(16) // Вот теперь выводит
